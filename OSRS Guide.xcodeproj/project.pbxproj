@@ -14,6 +14,7 @@
 		C4CC33DD23BAA4120014C341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CC33DC23BAA4120014C341 /* Assets.xcassets */; };
 		C4CC33E023BAA4120014C341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CC33DE23BAA4120014C341 /* LaunchScreen.storyboard */; };
 		C4CC33EB23BAA4120014C341 /* OSRS_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CC33EA23BAA4120014C341 /* OSRS_GuideTests.swift */; };
+		C4CC33F623BAA8250014C341 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CC33F523BAA8250014C341 /* APIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		C4CC33E623BAA4120014C341 /* OSRS GuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OSRS GuideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CC33EA23BAA4120014C341 /* OSRS_GuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSRS_GuideTests.swift; sourceTree = "<group>"; };
 		C4CC33EC23BAA4120014C341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4CC33F523BAA8250014C341 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				C4CC33D323BAA4100014C341 /* AppDelegate.swift */,
 				C4CC33D523BAA4100014C341 /* SceneDelegate.swift */,
 				C4CC33D723BAA4100014C341 /* ViewController.swift */,
+				C4CC33F523BAA8250014C341 /* APIController.swift */,
 				C4CC33D923BAA4100014C341 /* Main.storyboard */,
 				C4CC33DC23BAA4120014C341 /* Assets.xcassets */,
 				C4CC33DE23BAA4120014C341 /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CC33F623BAA8250014C341 /* APIController.swift in Sources */,
 				C4CC33D823BAA4100014C341 /* ViewController.swift in Sources */,
 				C4CC33D423BAA4100014C341 /* AppDelegate.swift in Sources */,
 				C4CC33D623BAA4100014C341 /* SceneDelegate.swift in Sources */,
